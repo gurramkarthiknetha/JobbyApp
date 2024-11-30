@@ -1,0 +1,50 @@
+/* General container styling */
+.search-input-container {
+  display: flex;
+  align-items: center;
+  background-color: #121212; /* Dark background */
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+/* Search input styling */
+.search-input {
+  background-color: #272727; /* Dark input background */
+  border: 1px solid #4f46e5; /* Border with primary color */
+  color: #ffffff; /* Text color */
+  padding: 8px 16px;
+  border-radius: 4px;
+  outline: none;
+  width: 100%;
+}
+
+.search-input::placeholder {
+  color: #7e858e; /* Placeholder color */
+}
+
+/* Search icon styling */
+.search-icon {
+  color: #6366f1; /* Icon color */
+  
+  font-size: 20px;
+  cursor: pointer;
+}
+
+/* Hover effect on the search icon */
+.search-icon:hover {
+  color: #b6c5ff; /* Lighter version of the icon color */
+}
+
+/* Focus state on input */
+.search-input:focus {
+  border-color: #475569; /* Focus border color */
+  background-color: #2c364c; /* Slightly different background on focus */
+}
+.search-btn{
+  outline: none;
+  background-color: transparent;
+  border: none;
+  padding: none;
+ margin-left: 10px
+}

@@ -1,0 +1,95 @@
+/* Container */
+.filters-group-container {
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .filters-group-container {
+    width: 100%;
+  }
+}
+
+/* Headings */
+.employment-heading,
+.salary-heading {
+  color: #f8fafc;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 700;
+  margin-top: 24px;
+}
+
+/* Employment Filters */
+.employment-list {
+  padding-left: 0;
+}
+
+.employment-list-item {
+  list-style-type: none;
+  margin-top: 16px;
+  cursor: pointer;
+}
+
+.employment-label {
+  color: #cbd5e1; /* Light text color */
+  font-family: 'Roboto';
+  font-size: 16px;
+}
+
+.employment-checkbox {
+  margin-right: 8px;
+  border: 2px solid #64748b; /* Checkbox border color */
+  background-color: #272727; /* Checkbox background */
+  color: #ffffff; /* Checkbox checkmark color */
+}
+
+/* Salary Filters */
+.salary-heading {
+  margin-top: 32px;
+}
+
+.salary-list {
+  padding-left: 0;
+}
+
+.salary-list-item {
+  list-style-type: none;
+  margin-bottom: 12px;
+  cursor: pointer;
+}
+
+.salary-label {
+  color: #cbd5e1;
+  font-family: 'Roboto';
+  font-size: 16px;
+}
+
+.salary-radio {
+  margin-right: 8px;
+  border: 2px solid #64748b; /* Radio border color */
+  background-color: #272727; /* Radio background */
+  color: #ffffff; /* Radio checkmark color */
+}
+
+/* Checkbox and Radio Hover Effect */
+.employment-checkbox:hover,
+.salary-radio:hover {
+  border-color: #6366f1; /* Hover border color */
+}
+
+/* Responsive Design */
+@media screen and (max-width: 576px) {
+  .employment-heading,
+  .salary-heading {
+    font-size: 16px;
+  }
+
+  .employment-label,
+  .salary-label {
+    font-size: 14px;
+  }
+}
+.separator {
+  border: 1px solid #475569; /* Line separator color */
+  margin: 5px 0px;
+}
